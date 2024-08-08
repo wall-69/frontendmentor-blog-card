@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body class="min-h-screen flex flex-col bg-yellow">
+  <main class="flex-1 flex flex-col items-center justify-center">
+    <article class="flex flex-col gap-6 bg-white shadow-card p-6 rounded-[20px] border-black border mx-6">
+      <img src="images/illustration-article.svg" alt="The article illustration"
+        class="h-[200px] object-cover rounded-[10px]">
+
+      <div class="flex flex-col gap-3">
+        <span class="font-extrabold bg-yellow px-3 py-1 w-min text-[12px] lg:text-[14px] rounded-[4px]">
+          Learning
+        </span>
+
+        <span class="text-[12px] lg:text-[14px]">
+          Published 21 Dec 2023
+        </span>
+
+        <h2 class="font-extrabold text-xl lg:text-2xl hover:text-yellow hover:cursor-pointer transition-colors">
+          HTML & CSS foundations
+        </h2>
+
+        <p class="text-gray-500 max-w-[35ch] text-[14px] lg:text-base">
+          These languages are the backbone of every website, defining structure, content, and presentation.
+        </p>
+      </div>
+
+      <div class="flex items-center gap-4">
+        <figure><img src="images/image-avatar.webp" alt="Greg Hooper Avatar" class="w-8"></figure>
+        <figcaption class="text-[14px] font-extrabold">
+          Greg Hooper
+        </figcaption>
+      </div>
+    </article>
+  </main>
+
+  <footer class="text-center text-black">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" class="underline" target="_blank">Frontend
+      Mentor</a>.
+    Coded by <a href="https://github.com/wall-69/" class="underline">Tomáš Kriško</a>.
+  </footer>
+</body>
+
+</html>
