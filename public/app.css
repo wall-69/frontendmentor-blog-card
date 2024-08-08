@@ -773,6 +773,39 @@ video {
   font-size: 12px;
 }
 
+.text-\[0\.8rem\]{
+  font-size: 0.8rem;
+}
+
+.text-\[0\.875rem\]{
+  font-size: 0.875rem;
+}
+
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-\[2vw\]{
+  font-size: 2vw;
+}
+
+.text-\[3vw\]{
+  font-size: 3vw;
+}
+
+.text-\[3vh\]{
+  font-size: 3vh;
+}
+
+.text-\[30vw\]{
+  font-size: 30vw;
+}
+
+.text-\[1vw\]{
+  font-size: 1vw;
+}
+
 .font-extrabold{
   font-weight: 800;
 }

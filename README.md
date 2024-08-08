@@ -10,7 +10,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Live Site URL: [vercel.app](https://frontendmaster-blog-card.vercel.app/)
+- Live Site URL: [vercel.app](https://frontendmentor-blog-card.vercel.app/)
 
 ## My process
 
